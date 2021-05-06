@@ -52,8 +52,8 @@ public class TwitterUseCase2 extends AbstractClass {
         //Log in to Twitter and verify if first 2 tweets are present
         driver.navigate().to("https://www.twitter.com");
         Base_Class.TwitterLoginPage().setLoginButton();
-        Base_Class.TwitterLoginPage().setUsernameField("sharuuukh");
-        Base_Class.TwitterLoginPage().setPasswordField("@Brolly38");
+        Base_Class.TwitterLoginPage().setUsernameField("Username");
+        Base_Class.TwitterLoginPage().setPasswordField("Password");
         Base_Class.TwitterLoginPage().setLoginFinal();
         Thread.sleep(2000);
         Base_Class.TwitterHomePage().setSeeProfile();

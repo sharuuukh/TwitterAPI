@@ -30,8 +30,8 @@ public class TwitterUseCase1 extends AbstractClass {
         //Log in to Twitter and create a Tweet
         driver.navigate().to("https://www.twitter.com");
         Base_Class.TwitterLoginPage().setLoginButton();
-        Base_Class.TwitterLoginPage().setUsernameField("sharuuukh");
-        Base_Class.TwitterLoginPage().setPasswordField("@Brolly38");
+        Base_Class.TwitterLoginPage().setUsernameField("Username");
+        Base_Class.TwitterLoginPage().setPasswordField("Password");
         Base_Class.TwitterLoginPage().setLoginFinal();
         Thread.sleep(4000);
         Base_Class.TwitterHomePage().setComposeTweetButton();
